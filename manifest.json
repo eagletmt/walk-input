@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "walk-input",
+  "description": "Walk input elements by Alt-I and Alt-Shift-I",
+  "version": "1.0.1",
+  "applications": {
+    "gecko": {
+      "id": "walk-input@wanko.cc"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "all_frames": true,
+      "run_at": "document_end"
+    }
+  ]
+}
