@@ -1,5 +1,7 @@
 WEB_EXT = node_modules/.bin/web-ext
 
+lint:
+	$(WEB_EXT) lint
 build:
 	$(WEB_EXT) build
 
