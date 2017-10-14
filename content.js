@@ -1,7 +1,6 @@
 window.addEventListener('keypress', (evt) => {
   if (!evt.ctrlKey && evt.altKey && !evt.metaKey) {
     const inputs = findTextInputElements();
-    console.dir(inputs);
     if (inputs.length !== 0) {
       if (isTextInputElement(evt.target)) {
         let index = inputs.findIndex((input) => input.isSameNode(evt.target));
