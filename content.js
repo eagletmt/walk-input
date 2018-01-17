@@ -1,5 +1,5 @@
 window.addEventListener('keypress', (evt) => {
-  if (!evt.ctrlKey && evt.altKey && !evt.metaKey) {
+  if (!evt.ctrlKey && evt.altKey && !evt.metaKey && (evt.key === 'i' || evt.key === 'I')) {
     const inputs = findTextInputElements();
     if (inputs.length !== 0) {
       if (isTextInputElement(evt.target)) {
