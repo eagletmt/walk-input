@@ -1,4 +1,4 @@
-window.addEventListener('keypress', (evt) => {
+window.addEventListener('keydown', (evt) => {
   if (!evt.ctrlKey && evt.altKey && !evt.metaKey && (evt.key === 'i' || evt.key === 'I')) {
     const inputs = findTextInputElements();
     if (inputs.length !== 0) {
