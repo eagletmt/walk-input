@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "walk-input",
   "description": "Walk input elements by Alt-I and Alt-Shift-I",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "applications": {
     "gecko": {
       "id": "walk-input@wanko.cc"
