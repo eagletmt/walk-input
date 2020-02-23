@@ -34,5 +34,5 @@ function isVisibleElement(element) {
 }
 
 function findTextInputElements() {
-  return Array.filter(document.querySelectorAll('input, textarea, [contenteditable]'), isTextInputElement).filter(isVisibleElement);
+  return Array.from(document.querySelectorAll('input, textarea, [contenteditable]')).filter(isTextInputElement).filter(isVisibleElement);
 }
