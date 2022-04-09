@@ -1,4 +1,4 @@
-WEB_EXT = node_modules/.bin/web-ext
+WEB_EXT = web-ext
 
 lint:
 	$(WEB_EXT) lint
